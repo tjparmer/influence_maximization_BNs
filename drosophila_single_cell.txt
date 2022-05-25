@@ -1,0 +1,22 @@
+#Boolean network model of Drosophila 4-cell parasegment
+#From Albert R, Othmer H (2003) 
+#The topology of the regulatory interactions predicts the expression pattern of the segment polarity genes in drosophila melanogaster. 
+#J Theor Biol 223: 1–18.
+#BOOLEAN RULES
+SLP*=SLP
+nWG*=nWG
+nhhnHH*=nhhnHH
+wg*=(CIA and SLP and not CIR) or (wg and (CIA or SLP) and not CIR)
+WG*=wg
+en*=nWG and not SLP
+EN*=en
+hh*=EN and not CIR
+HH*=hh
+ptc*=CIA and not EN and not CIR
+PTC*=ptc or (PTC and not nhhnHH)
+PH*=PTC and nhhnHH
+SMO*=not PTC or nhhnHH
+ci*=not EN
+CI*=ci
+CIA*=CI and (not PTC or nhhnHH)
+CIR*=CI and PTC and not nhhnHH
