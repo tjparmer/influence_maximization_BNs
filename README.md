@@ -2,13 +2,13 @@ Influence maximization in Boolean networks
 =======================================================
 
 Code to generalize methods (e.g. mean-field approximation) for influence maximization to Boolean networks.
-
+<br>
 **Tutorials:**
+<p>Tutorial_Drosophila_SPN.ipynb shows how to run the individual based mean-field approximation (IBMFA), calculate entropy, and retrieve driver sets for biological networks (e.g. the _drosophila_ single-cell SPN).<\p>
 
-Tutorial_Drosophila_SPN.ipynb shows how to run the individual based mean-field approximation (IBMFA), calculate entropy, and retrieve driver sets for biological networks (e.g. the _drosophila_ single-cell SPN).
+<p>Tutorial_RBN.ipynb shows how to run the IBMFA, calculate entropy, and retrieve driver sets for random Boolean networks (RBNs).</p>
 
-Tutorial_RBN.ipynb shows how to run the IBMFA, calculate entropy, and retrieve driver sets for random Boolean networks (RBNs).
-
+  <br>
 **Scripts:**
 
 mean_field_computations.py (code to run IBMFA)
