@@ -29,7 +29,7 @@ Note: the scripts above were created from the functions originally used in the j
 - See network_attractors.ipynb for results on attractors and control kernels.  These calculations require code from https://zenodo.org/record/5172898 [2]
 
 
-The corresponding paper has been submitted for publication.
+The corresponding paper has been published in Nature Communications [3]
 
 References:
 ---------
@@ -38,3 +38,5 @@ References:
 Rogers. The cell collective: toward an open and collaborative approach to systems biology. BMC systems biology, 6(1):1–14, 2012.
 
 [2] Borriello, E., Daniels, B.C. The basis of easy controllability in Boolean networks. Nat Commun 12, 5227 (2021). https://doi.org/10.1038/s41467-021-25533-3
+
+[3] Parmer, Thomas, Luis M. Rocha, and Filippo Radicchi. Influence maximization in Boolean networks. Nature communications 13.1 (2022): 3457. https://doi.org/10.1038/s41467-022-31066-0
